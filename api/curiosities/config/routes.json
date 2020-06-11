@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/curiosities",
+      "handler": "curiosities.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/curiosities",
+      "handler": "curiosities.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/curiosities",
+      "handler": "curiosities.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
